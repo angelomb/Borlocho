@@ -402,14 +402,14 @@ Main.UpdateHelpBar = function() {
             if (API.categories["length"] < 3 && !Main.FAV && !Main.guide && API.XML_URL["indexOf"]("history.dat") < 0) {
                 getIdb("9_help");
             }
-            if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") == 0) {
+            if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") == 0) {
                 Display.status(API.XML_URL);
                 if (Main.Kill != "") {
                     API.Xcode = Main.Kill;
                 }
             }
         } else {
-            if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") != 0) {
+            if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") != 0) {
                 getIdn("6_help");
                 if (!this["RED"]) {
                     getIdb("7_help");
@@ -777,7 +777,7 @@ Main.PlayPrevPlaylist = function() {
             }
         }
     } else {
-        if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") != 0) {
+        if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") != 0) {
             this["start"] = true;
             Main.DEL = false;
             Main.playlist();
@@ -942,7 +942,7 @@ Main.playlist = function() {
         this["pre_pl_url"] = API.XML_URL;
         this["playlist_name"] = Main.name;
         if (Main.start) {
-            this["pl_url"] = "http://hergoweb.wc.lt/smart/start.xml";
+            this["pl_url"] = "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml";
         }
         if (API.Xcode != 0 && !Main.guide && !Main.start && !Main.help_info && this["url"] == "") {
             var c = /[-="',&\/\?\s\_]xxx|porno|sex|erotica|sexo|porno|erotica|anal/i;
@@ -956,7 +956,7 @@ Main.playlist = function() {
                 Main.temp_fav_name = Main.fav_name;
             }
             Main.SavePrevPlaylist();
-            if (Main.pl_url["indexOf"]("Open") != 0 && Main.pl_url["indexOf"]("history.dat") < 0 && API.XML_URL != "http://hergoweb.wc.lt/smart/start.xml") {
+            if (Main.pl_url["indexOf"]("Open") != 0 && Main.pl_url["indexOf"]("history.dat") < 0 && API.XML_URL != "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") {
                 Main.saveHistory("pl_history.dat");
             }
         }
@@ -1210,8 +1210,8 @@ Main.delFavorites = function() {
         Display.status('<b style="color:yellow">Número Favorito' + Main.fav_num + ' - "' + Main.fav_name + '" -  ПУСТО !</b>');
         Main.FAV = false;
         Main.RED = false;
-        if (Main.prev_pl_array["length"] == 0 && API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") < 0) {
-            API.XML_URL = "http://hergoweb.wc.lt/smart/start.xml";
+        if (Main.prev_pl_array["length"] == 0 && API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") < 0) {
+            API.XML_URL = "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml";
             setTimeout("API.Request(API.XML_URL)", 3000);
         } else {
             setTimeout("Main.PlayPrevPlaylist();", 3000);
@@ -1245,10 +1245,10 @@ Main.opencommonFile = function(c) {
     Main.readFile(f, c);
     if (f.length == 0) {
         if (c.indexOf("fav.dat") > 0) {
-            if (Main.prev_pl_array["length"] == 0 && API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") < 0) {
+            if (Main.prev_pl_array["length"] == 0 && API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") < 0) {
                 Display.status('<b style="color:yellow">En SUS favoritos startoavom - Dejar!</b>');
                 setTimeout("Display.status('Cambie su Dirección en el widget de de AJUSTES')", 3500);
-                API.XML_URL = "http://hergoweb.wc.lt/smart/start.xml";
+                API.XML_URL = "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml";
                 setTimeout("API.Request(API.XML_URL)", 7000)
             } else {
                 Display.status('<b style="color:yellow">Numero Favorito' + Main.fav_num + " - " + Main.fav_name + " -  VACIO</b>", 1500);
@@ -1637,8 +1637,8 @@ msecToStr = function(a, b) {
     return to(h, m, a);
 };
 var API = {
-    XML_URL: "http://hergoweb.wc.lt/smart/start.xml",
-    star_url: "http://hergoweb.wc.lt/smart/start.xml",
+    XML_URL: "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml",
+    star_url: "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml",
     help_url: "help/help.xml",
     GenUrl: "",
     GenT: "500",
@@ -1786,7 +1786,7 @@ GetYaBaseInfo = function() {
 API.loadComplete = function() {
     if (API.channels["length"] == 0) {
         Display.status('<b style="color:yellow">ERROR EN LA ESTRUCTURA DE LA LISTA DE REPRODUCCIÓN!</b>');
-        if (Main.prev_pl_array["length"] == 0 && API.XML_URL == "http://hergoweb.wc.lt/smart/start.xml") {
+        if (Main.prev_pl_array["length"] == 0 && API.XML_URL == "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") {
             setTimeout("getIdb('main');SetupFormular()", 2000);
         } else {
             setTimeout("Main.PlayPrevPlaylist();", 500);
@@ -1880,8 +1880,8 @@ API.recieveData = function(a) {
     } else {
         Display.status('<b style="color:yellow">Dirección Incorrecta o NO Lista de Reproducción! </b>');
         if (Main.FirstStart) {
-            if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") < 0) {
-                API.XML_URL = "http://hergoweb.wc.lt/smart/start.xml";
+            if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") < 0) {
+                API.XML_URL = "https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml";
                 setTimeout("API.Request(API.XML_URL)", 3000);
             } else {
                 setTimeout("getIdb('main');SetupFormular()", 3000);
@@ -2734,7 +2734,7 @@ KeyHandler.MainMenuKeyDown = function() {
             break;
         case 1086:
         case 84:
-            if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") != 0) {
+            if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") != 0) {
                 Main.start = true;
                 Main.playlist();
             } else {
@@ -2928,7 +2928,7 @@ KeyHandler.MainMenuKeyDown = function() {
                     Main.Ya_flag_step++;
                     YandexGetUrl(GetYindex());
                 } else {
-                    if (API.XML_URL["indexOf"]("http://hergoweb.wc.lt/smart/start.xml") == 0) {
+                    if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") == 0) {
                         if (Main.ya_auto && !Main.ya_base_info) {
                             GetYaBaseInfo();
                         }
@@ -5191,7 +5191,7 @@ onEnter = function() {
     try {
         var w = getId("27")["value"];
         if (w == "Inc.") {
-        	var b = ["http://hergoweb.wc.lt/smart/start.xml", "", "", "", "", "0", "0", "Основное|IP-TV|Фильмы|Сериалы", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
+        	var b = ["https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml", "", "", "", "", "0", "0", "Основное|IP-TV|Фильмы|Сериалы", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
         } else {
             var G = lrdPr(getId("0")["value"]);
             var v = lrdPr(getId("2")["value"]);
