@@ -1644,8 +1644,8 @@ var API = {
     GenT: "500",
     Gen: false,
     Proxy: "",
-    Timefix: "1",
-    Timemode: "1",
+    Timefix: "0",
+    Timemode: "2",
     Xcode: "0",
     Size: "",
     Ph: "100",
@@ -5056,7 +5056,7 @@ var ASize3 = {
 var STimemode = {
     0: "Sincronización automática",
     1: "auto, Unix",
-    2: "ручное из тв"
+    2: "Manual de TV"
 };
 SetupFormular = function() {
     var n = 52;
