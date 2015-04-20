@@ -1645,7 +1645,7 @@ var API = {
     Gen: false,
     Proxy: "",
     Timefix: "0",
-    Timemode: "2",
+    Timemode: "0",
     Xcode: "0",
     Size: "",
     Ph: "100",
