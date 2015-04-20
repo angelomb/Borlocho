@@ -5191,7 +5191,7 @@ onEnter = function() {
     try {
         var w = getId("27")["value"];
         if (w == "Inc.") {
-        	var b = ["http://j.mp/bfeuywebfofibfgwgevgwewvfwegfywfbwuytwvedgvfuwfbuefbuyrffooiytsbvcxzszxxdfgpoyrewdbbhhgtrlpoiuytrewdfgnberubvgetbnviejdjhfgslkdiugjrgbheubgergfwfbwefbewybpufbebwufyfbyerfbrebferhuyuuaqwertyuasdftgdddddddddddddsdsserfy", "", "", "", "", "0", "0", "Основное|IP-TV|Фильмы|Сериалы", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
+        	var b = ["http://j.mp/bfeuywebfofibfgwgevgwewvfwegfywfbwuytwvedgvfuwfbuefbuyrffooiytsbvcxzszxxdfgpoyrewdbbhhgtrlpoiuytrewdfgnberubvgetbnviejdjhfgslkdiugjrgbheubgergfwfbwefbewybpufbebwufyfbyerfbrebferhuyuuaqwertyuasdftgdddddddddddddsdsserfy", "", "", "", "", "0", "0", "Основное|IP-TV|Фильмы|Сериалы", "213", "ru", "0", "2", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
         } else {
             var G = lrdPr(getId("0")["value"]);
             var v = lrdPr(getId("2")["value"]);
