@@ -1537,7 +1537,7 @@ function SyncInetTime() {
             }
         }
     };
-    a.open("GET", "http://wwp.greenwichmeantime.com/time/scripts/clock-8/x.php", true);
+    a.open("GET", "http://www.greenwichmeantime.com/time/scripts/clock-8/runner.php?tz=america_lima", true);
     a.setRequestHeader("User-Agent", "Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51");
     a.send();
 }
