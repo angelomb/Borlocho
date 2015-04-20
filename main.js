@@ -4871,12 +4871,12 @@ KeyHandler.SetapKeyDown = function() {
             e = 36;
             break;
         case "19":
-            a = ["Cuadrado " , " rectangular"];
+            a = ["Cuadrado" , "rectangular"];
             d = 36;
             e = 36;
             break;
         case "20":
-            a = ["On "," Off"];
+            a = ["On","Off"];
             d = 72;
             e = 36;
             break;
@@ -5099,15 +5099,15 @@ SetupFormular = function() {
         b = "";
         a = '</span></form><form style="color:#00ccff;font-size:20px;"><span>La dirección es demasiado grande!';
     }
-    var i = '<div id="allInput"><form><span> URL abordar la Lista de Reproducción real: <font style="color:#00ccff;font-size:17px;">"' + b + "</font>" + a + '"</span></form><form><span> URL Dirección de lista de Reproducción A Partir : </span></form><form><input id="0" type="text" size="' + n + '" maxlength="200"></input></form>';
+    var i = '<div id="allInput"><form><span> URL de la Lista de Reproducción actual: <font style="color:#00ccff;font-size:17px;">"' + b + "</font>" + a + '"</span></form><form><span> URL Dirección de lista de Reproducción A Partir : </span></form><form><input id="0" type="text" size="' + n + '" maxlength="200"></input></form>';
     if (API.star_url != API.XML_URL) {
-        i += '<form><img src="img/buttons/yellow_m.png"></img><span> - reemplazar la Dirección inicial de la corriente</span></form>';
+        i += '<form><img src="img/buttons/yellow_m.png"></img><span> - reemplazar la url inicial por la actual</span></form>';
     }
-    i += '<form><span> URL abordar Lista de Reproducción cerrado : </span></form><form><input id="1" type="text" size="' + n + '" maxlength="200"></input></form>';
+    i += '<form><span>URL de Lista de Reproducción cerrado:</span></form><form><input id="1" type="text" size="' + n + '" maxlength="200"></input></form>';
     if (Main.pl_url != "") {
         i += '<form><img src="img/buttons/yellow_m.png"></img><span> - Rellene la Lista de Direcciones en el foco</span></form>';
     }
-    i += '<form><span id="text_form3"> Entrada CERRAR Obtener pára. Lista de Reproducción :</span><input id="2" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form3">Contraseña para CERRAR. lista de  :</span><input id="3" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form3">Proxy de UDP ( IP : Puerto ) :</span><input id="4" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form0">Código de Acceso "XXX" ( 0 - 9999 ) : </span><input id="5" type="text" size="' + k + '" maxlength="4"></input></form><form><span id="text_form0">Nombre de código elegido  ( 0 - 9999 ) :</span><input id="6" type="text" size="' + k + '" maxlength="4"></input></form><form><span>Los nombres de las carpetas seleccionadas, hay, en fin</span></form><form><span>( Nombre 1 | Nombre 2 | Nombre 3 . . . ) : </span></form><form><input id="7" type="text" size="' + n + '" maxlength="200"></input></form><form><span id="text_form0"> Código de región de Yandex ( "213"- Moscu ) : </span><input id="8" type="text" size="' + k + '" maxlength="7"></input></form><form><span id="text_form1">El programa desde el sitio "m.tv.yandex.</span><img src="img/buttons/lr_m.png"></img><div id="9"></div></form><form><span id="text_form1">Cambio de hora en el programa (+/-12 ч.)</span><img src="img/buttons/lr_m.png"></img><div id="10"></div></form><form><span id="text_form2">Tiempo en el widget </span><img src="img/buttons/lr_m.png"></img><div id="11"></div></form><form><span id="text_form1">Todas las horas son para el "auto". ( +/-12 ч.)</span><img src="img/buttons/lr_m.png"></img><div id="12"></div></form><form><span id="text_form2">El tamaño de inicio del vídeo: </span><img src="img/buttons/lr_m.png"></img><div id="13"></div></form><form><span id="text_form1">Высота для "X-ZOOM" 50 - 150 ( % )</span><img src="img/buttons/lr_m.png"></img><div id="14"></div></form><form><span id="text_form1">de ancho para "X-ZOOM" 50 - 150 ( % ) </span><img src="img/buttons/lr_m.png"></img><div id="15"></div></form><form><span id="text_form2">ABTO para /h<1.35 </span><img src="img/buttons/lr_m.png"></img><div id="16"></div></form><form><span id="text_form2">ABTO para 1.34 < w/h <1.79 </span><img src="img/buttons/lr_m.png"></img><div id="17"></div></form><form><span id="text_form2">ABTO para  w/h > 1.78 </span><img src="img/buttons/lr_m.png"></img><div id="18"></div></form><form><span id="text_form2">Formulario de :</span><img src="img/buttons/lr_m.png"></img><div id="19"></div></form><form><span id="text_form1">Cargando icono Externa:</span><img src="img/buttons/lr_m.png"></img><div id="20"></div></form><form><span>El total de Tamaño de la memoria total buffer 0.5 - 20 ( Мб.).</span></form><form><span id="text_form1">"0"- Auto. o el valor de la Lista de Reproducción :</span><img src="img/buttons/lr_m.png"></img><div id="21"></div></form><form><span>Начинать воспроизведение после прочтения </span></form><form><span> от 10 до 50 ( % ) от общего размера буфера.</span></form><form><span id="text_form1">"0"- авто. или значение из плейлиста :</span><img src="img/buttons/lr_m.png"></img><div id="22"></div></form><form><span id="text_form1">Нижняя панель подсказок плеера </span><img src="img/buttons/lr_m.png"></img><div id="23"></div></form><form><span id="text_form1">Посылка МАС адреса </span><img src="img/buttons/lr_m.png"></img><div id="24"></div></form><form><span id="text_form1">Маскировка ТВ под браузер </span><img src="img/buttons/lr_m.png"></img><div id="25"></div></form><form><span id="text_form1">Ограничить качество видео </span><img src="img/buttons/lr_m.png"></img><div id="26"></div></form><form><span id="text_form1">Сброс настроек по умолчанию </span><img src="img/buttons/lr_m.png"></img><div id="27"></div></form><form></form><form></form><form></form><form></form><form></form><form></form><form></form><form></form></div>';
+    i += '<form><span id="text_form3"> Entrada para CERRAR.Lista:</span><input id="2" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form3">Contraseña para CERRAR. lista :</span><input id="3" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form3">Proxy de UDP(IP:Puerto):</span><input id="4" type="text" size="' + l + '" maxlength="40"></input></form><form><span id="text_form0">Código de Acceso "XXX"(0-9999) : </span><input id="5" type="text" size="' + k + '" maxlength="4"></input></form><form><span id="text_form0">Código Nombre Favoritos (0 - 9999):</span><input id="6" type="text" size="' + k + '" maxlength="4"></input></form><form><span>Los nombres de las carpetas seleccionadas, hay, en orden</span></form><form><span>( Nombre 1 | Nombre 2 | Nombre 3 . . . ) : </span></form><form><input id="7" type="text" size="' + n + '" maxlength="200"></input></form><form><span id="text_form0"> Código de región de Yandex ( "213"- Moscu ) : </span><input id="8" type="text" size="' + k + '" maxlength="7"></input></form><form><span id="text_form1">El programa desde el sitio "m.tv.yandex.</span><img src="img/buttons/lr_m.png"></img><div id="9"></div></form><form><span id="text_form1">Programa de cambio de hora (+/- 12 h).</span><img src="img/buttons/lr_m.png"></img><div id="10"></div></form><form><span id="text_form2">Tiempo en el widget </span><img src="img/buttons/lr_m.png"></img><div id="11"></div></form><form><span id="text_form1">Todas las horas son para el "auto".(+/-12 H)</span><img src="img/buttons/lr_m.png"></img><div id="12"></div></form><form><span id="text_form2">Tamaño de inicial del vídeo:</span><img src="img/buttons/lr_m.png"></img><div id="13"></div></form><form><span id="text_form1">Altura para "X-ZOOM" 50-150 (%)</span><img src="img/buttons/lr_m.png"></img><div id="14"></div></form><form><span id="text_form1">Ancho de "X-ZOOM" 50-150 (%)</span><img src="img/buttons/lr_m.png"></img><div id="15"></div></form><form><span id="text_form2">Auto para /h<1.35 </span><img src="img/buttons/lr_m.png"></img><div id="16"></div></form><form><span id="text_form2">Auto para 1.34 < w/h <1.79</span><img src="img/buttons/lr_m.png"></img><div id="17"></div></form><form><span id="text_form2">AUTO para w / h> 1,78</span><img src="img/buttons/lr_m.png"></img><div id="18"></div></form><form><span id="text_form2">Forma de iconos:</span><img src="img/buttons/lr_m.png"></img><div id="19"></div></form><form><span id="text_form1">Cargando iconos externos:</span><img src="img/buttons/lr_m.png"></img><div id="20"></div></form><form><span>Tamaño total del buffer 0.5 - 20 (MG).</span></form><form><span id="text_form1">"0"-Auto.o el valor de la Lista de Reproducción:</span><img src="img/buttons/lr_m.png"></img><div id="21"></div></form><form><span>Iniciar la reproducción tras leer</span></form><form><span> de 10 a 50 (%) del tamaño total de la memoria intermedia.</span></form><form><span id="text_form1">"0" - Auto o el valor de la lista de reproducción:</span><img src="img/buttons/lr_m.png"></img><div id="22"></div></form><form><span id="text_form1">Panel inferior pide reproductor</span><img src="img/buttons/lr_m.png"></img><div id="23"></div></form><form><span id="text_form1">Envío de dirección MAC</span><img src="img/buttons/lr_m.png"></img><div id="24"></div></form><form><span id="text_form1">Oculto bajo el televisor </span><img src="img/buttons/lr_m.png"></img><div id="25"></div></form><form><span id="text_form1">Limite la calidad del vídeo</span><img src="img/buttons/lr_m.png"></img><div id="26"></div></form><form><span id="text_form1">Restablecer valores predeterminados</span><img src="img/buttons/lr_m.png"></img><div id="27"></div></form><form></form><form></form><form></form><form></form><form></form><form></form><form></form><form></form></div>';
     widgetAPI.putInnerHTML(getId("infoList"), i);
     SetString("0", API.star_url, 1);
     SetString("1", API.Surl, 1);
@@ -5134,15 +5134,15 @@ SetupFormular = function() {
     SetString("18", ASize3[parseInt(API.a_size3)], 3);
     o = (API.Forma == "0" || API.Forma == "2") ? "Cuadrado" : "Rectangular";
     SetString("19", o, 3);
-    o = (API.Forma == "0" || API.Forma == "1") ? "вкл" : "выкл";
+    o = (API.Forma == "0" || API.Forma == "1") ? "on" : "off";
     SetString("20", o, 2);
     SetString("21", API.Buffer, 2);
     SetString("22", API.Ibuffer, 2);
-    o = (API.Pstyle == "1") ? "вкл" : "выкл";
+    o = (API.Pstyle == "1") ? "on" : "off";
     SetString("23", o, 2);
-    o = (API.Mac == "1") ? "вкл" : "выкл";
+    o = (API.Mac == "1") ? "on" : "off";
     SetString("24", o, 2);
-    o = (API.Header == "1") ? "вкл" : "выкл";
+    o = (API.Header == "1") ? "on" : "off";
     SetString("25", o, 2);
     SetString("26", API.Vquality, 2);
     SetString("27", "Off", 2);
@@ -5190,8 +5190,8 @@ Return = function(a) {
 onEnter = function() {
     try {
         var w = getId("27")["value"];
-        if (w == "Inc.") {
-        	var b = ["start.xml", "", "", "", "", "0", "0", "Основное|IP-TV|Фильмы|Сериалы", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
+        if (w == "ON") {
+        	var b = ["start.xml", "", "", "", "", "0", "0", "Principal|IPTV|Películas|Series", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
         } else {
             var G = lrdPr(getId("0")["value"]);
             var v = lrdPr(getId("2")["value"]);
@@ -5246,15 +5246,15 @@ onEnter = function() {
             }
             var E = getId("19")["value"];
             var B = getId("20")["value"];
-            E = (E == "Cuadrado" && B == "Inc.") ? "0" : (E == "rectangular" && B == "Inc.") ? "1" : (E == "Cuadrado" && B == "Inc.") ? "2" : "3";
+            E = (E == "Cuadrado" && B == "ON") ? "0" : (E == "rectangular" && B == "ON") ? "1" : (E == "Cuadrado" && B == "ON") ? "2" : "3";
             var a = getId("21")["value"];
             var D = getId("22")["value"];
             var A = getId("23")["value"];
-            A = (A == "Inc.") ? "1" : "0";
+            A = (A == "ON") ? "1" : "0";
             var z = getId("24")["value"];
-            z = (z == "Inc.") ? "1" : "0";
+            z = (z == "ON") ? "1" : "0";
             var y = getId("25")["value"];
-            y = (y == "Inc.") ? "1" : "0";
+            y = (y == "ON") ? "1" : "0";
             var x = getId("26")["value"];
             b = [G, r, v, t, q, o, l, j, g, C, d, f, s, c, p, n, k, i, F, E, a, D, A, z, y, x];
         }
