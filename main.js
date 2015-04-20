@@ -1494,7 +1494,7 @@ Main.onUnload = function() {
 function StartTime() {
     clearInterval(Main.IntervalUpdateTime);
     Main.IntervalUpdateTime = setInterval("SetTimeDate()", 1000);
-    if (API.Timemode == 0) {
+    if (API.Timemode == 2) {
         SyncInetTime();
     }
 }
