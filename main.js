@@ -403,7 +403,7 @@ Main.UpdateHelpBar = function() {
                 getIdb("9_help");
             }
             if (API.XML_URL["indexOf"]("https://raw.githubusercontent.com/angelomb/Borlocho/master/start.xml") == 0) {
-                Display.status(API.XML_URL);
+                Display.status("");
                 if (Main.Kill != "") {
                     API.Xcode = Main.Kill;
                 }
