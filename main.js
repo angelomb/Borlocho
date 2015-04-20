@@ -5056,7 +5056,7 @@ var ASize3 = {
 var STimemode = {
     0: "Sincronización automática",
     1: "auto, Unix",
-    2: "ручное из тв"
+    2: "Manual de TV"
 };
 SetupFormular = function() {
     var n = 52;
