@@ -99,7 +99,7 @@ var Main = {
     St_size: null,
     IntervalUpdateTime: null,
     SlideShowInterval: null,
-    version: "1.0.0",
+    version: "Beta 1.0.0",
     ver: "2015"
 };
 
