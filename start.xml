@@ -14,19 +14,24 @@
 		<playlist_url>OpenHistory</playlist_url>
 	</channel>
 	<channel>
-		<title><![CDATA[<font color="#00ccff">Mi lista</font>]]></title>
+		<title><![CDATA[<font color="#00ccff">"Mi lista"</font>]]></title>
 		<description><![CDATA[<table><td style="vertical-align: top"><img src="http://hergoweb.wc.lt/ima.jpg"height="128" width="128"/></td><td>ESTRENOS, CINE, TV<br> ESP</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
-		<playlist_url>https://raw.githubusercontent.com/angelomb/Borlocho/master/iptv.m3u</playlist_url>
+		<playlist_url>https://raw.githubusercontent.com/angelomb/awikaruy/master/iptv.m3u</playlist_url>
 	</channel>
+	<channel>
+	<title><![CDATA[gato]]></title>
+	<description><![CDATA[<img src="http://axenttv.ru/favicon.ico">КиноЗал POSLE]]></description>
+	<stream_url><![CDATA[http://pastebin.com/raw.php?i=NZBY1bfJ]]></stream_url>
+</channel>
 	<channel>
 		<title>CANALES LATINOS</title>
 		<description><![CDATA[<table><td style="vertical-align: top"><img src="http://hergoweb.wc.lt/ima.jpg"height="128" width="128"/></td><td>ESTRENOS, CINE, TV<br> ESP</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
-		<playlist_url>http://hergoweb.wc.lt/CANALESLATINOS.m3u</playlist_url>
+		<playlist_url>http://pastebin.com/download.php?i=NZBY1bfJ</playlist_url>
 	</channel>
         <channel>
 		<title>CANALES HD</title>
 		<description><![CDATA[<table><td style="vertical-align: top"><img src="http://hergoweb.wc.lt/smart/iptv.png"height="128" width="128"/></td><td>CANALES HD, 1024 HD<br> ESP</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
-		<playlist_url>http://hergoweb.wc.lt/smart/canalesHD.m3u</playlist_url>
+		<playlist_url>http://pastebin.com/raw.php?i=NZBY1bfJ</playlist_url>
 	</channel>
          <channel>
 		<title>CANALES INTERNACIONALES</title>
