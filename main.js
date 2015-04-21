@@ -167,7 +167,7 @@ Main.Init = function() {
         }
     }
 };
-//key приходит кнопка
+//key botón proviene
 SetVolume = function(key) {
     if (Main.audio_output_device == 3 || Main.hardware_type == 2) {
         Display.status("No Disponible");
@@ -383,7 +383,7 @@ Main.UpdateHelpBar = function() {
                     title = "HISTORIAL";
                     getIdb("5.1_help");
                 } else {
-                    title = "IPTV EN ESPAÑOL." + Main.version;
+                    title = "IPTV EN ESPAÑOL " + Main.version;
                 }
             }
         }
@@ -977,7 +977,7 @@ Main.playlist = function() {
                 } else {
                     if (Main.pl_url == "OpenHistory") {
                         var a = [
-                            ["IP-TV, WEB-TV КАНАЛЫ", "", "image.png", "IP-TV, WEB-TV CANALES", "", "live_history.dat", "", "", "", "", "", "", "", ""],
+                            ["IP-TV, CANALES WEB-TV ", "", "image.png", "IP-TV, CANALES WEB-TV ", "", "live_history.dat", "", "", "", "", "", "", "", ""],
                             ["CINE, VIDEO", "", "film.png", "CINE, VIDEO", "", "vod_history.dat", "", "", "", "", "", "", "", ""],
                             ["Lista de Reproducción Para El archivo", "", "open.png", "Lista de Reproducción Para El archivo", "", "pl_history.dat", "", "", "", "", "", "", "", ""]
                         ];
@@ -1480,7 +1480,7 @@ function ReadUsbDirN() {
 }
 
 function ReSize(b) {
-    var a = (b >= 1073741824) ? (b / 1073741824)["toFixed"](2) + " ГБ" : (b >= 1048576) ? (b / 1048576)["toFixed"](2) + " МБ" : (b >= 1024) ? (b / 1024)["toFixed"](2) + " КБ" : (b >= 0) ? b + " Байт" : (b < 0) ? (2 + b / 1073741824)["toFixed"](2) + " ГБ" : "";
+    var a = (b >= 1073741824) ? (b / 1073741824)["toFixed"](2) + " GB" : (b >= 1048576) ? (b / 1048576)["toFixed"](2) + " МB" : (b >= 1024) ? (b / 1024)["toFixed"](2) + " KB" : (b >= 0) ? b + " byte" : (b < 0) ? (2 + b / 1073741824)["toFixed"](2) + " GB" : "";
     return a;
 }
 Main.onUnload = function() {
@@ -1786,7 +1786,7 @@ GetYaBaseInfo = function() {
 API.loadComplete = function() {
     if (API.channels["length"] == 0) {
         Display.status('<b style="color:yellow">ERROR EN LA ESTRUCTURA DE LA LISTA DE REPRODUCCIÓN!</b>');
-        if (Main.prev_pl_array["length"] == 0 && API.XML_URL == "http://j.mp/bfeuywebfofibfgwgevgwewvfwegfywfbwuytwvedgvfuwfbuefbuyrffooiytsbvcxzszxxdfgpoyrewdbbhhgtrlpoiuytrewdfgnberubvgetbnviejdjhfgslkdiugjrgbheubgergfwfbwefbewybpufbebwufyfbyerfbrebferhuyuuaqwertyuasdftgdddddddddddddsdsserfy") {
+        if (Main.prev_pl_array["length"] == 0 && API.XML_URL == "start.xml") {
             setTimeout("getIdb('main');SetupFormular()", 2000);
         } else {
             setTimeout("Main.PlayPrevPlaylist();", 500);
