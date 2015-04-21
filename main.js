@@ -5099,7 +5099,7 @@ SetupFormular = function() {
         b = "";
         a = '</span></form><form style="color:#00ccff;font-size:20px;"><span>La dirección es demasiado grande!';
     }
-    var i = '<div id="allInput"><form><span> URL de la Lista de Reproducción actual: <font style="color:#00ccff;font-size:17px;">"' + b + "</font>" + a + '"</span></form><form><span> URL Dirección de lista de Reproducción A Partir : </span></form><form><input id="0" type="text" size="' + n + '" maxlength="200"></input></form>';
+    var i = '<div id="allInput"><form><span> Lista actual: <font style="color:#00ccff;font-size:17px;">"' + b + "</font>" + a + '"</span></form><form><span> URL Dirección de lista de Reproducción A Partir : </span></form><form><input id="0" type="text" size="' + n + '" maxlength="200"></input></form>';
     if (API.star_url != API.XML_URL) {
         i += '<form><img src="img/buttons/yellow_m.png"></img><span> - reemplazar la url inicial por la actual</span></form>';
     }
