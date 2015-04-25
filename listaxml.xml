@@ -1,9 +1,147 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8' ?>
 <items>
+
+<playlist_name>Плейлисты от Maverick'a   v.2.5</playlist_name>
+
 <channel>
-<title><![CDATA[<font color="#00ccff">IPTV</font>]]></title>
-<description><![CDATA[<table><td style="vertical-align: top"><img src="http://hergoweb.wc.lt/ima.jpg"height="128" width="128"/></td><td>ESTRENOS, CINE, TV<br> ESP</td></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table>]]></description>
-<playlist_url>https://raw.githubusercontent.com/angelomb/awikaruy/master/iptv.m3u</playlist_url>
+	<title><![CDATA[Information]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/info.png]]></logo_30x30>
+	<description><![CDATA[<center>Сейчас онлайн:<a href="http://whos.amung.us/stats/6lp2163370p2"><br><img src="http://whos.amung.us/widget/6lp2163370p2.png" alt="web stats" width="81" height="25" border="0"/></a><br>Портал предоставляет удобный доступ к сайтам для просмотра видео на телевизорах Samsung и ресиверах с Enigma2.<br><br>Обсуждение плейлистов, предложения и замечания, сообщения об ошибках и неработающих ссылках и просто ваши мысли оставляйте в чате на нашем сайте:<br><img src="http://smarttv.fishki.tv/logos/SmartTV.fishki.tv.gif"/><br><font color="#1E90FF">http://SmartTV.fishki.tv</font></center>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/info.xml]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[TOP 30 за последнюю неделю]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/images/rating.jpg]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/images/rating.jpg" width="200"/><br><br>TOP 30 фильмов - что чаще всего смотрели пользователи портала за последние 7 дней<br><br>Внимание! Фильмы могут повторяться, т.к. рейтинги одинаковых фильмов с разных сайтов не суммируются.</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/top30d.php?xxx=7]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[SerialsOnline]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/video_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><span style="font:190% Arial,sans-serif;clear:left;margin:0; padding-left: 10px; font-weight: bolder; color: #1C509D">Serials</span><span style="font:190% Arial,sans-serif;clear:left;margin:0; padding-left: 10px; font-weight: bolder; color: brown">Online</span><br><br>SerialsOnline.net - Смотреть художественные, мультипликационные, документальные сериалы, ТВ-шоу в онлайне.<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=serialsonline&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[AnimalsTV]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/animalstv_logo.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><h1>AnimalsTV.ru</h1>Каталог познавательных фильмов о животном мире и дикой природе от лучших студий — BBC, Discovery Channel, National Geographic и других.</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=animalstv&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[Online-DocFilm]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/docfilm_logo.ico]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/docfilm.jpg"/><br><br>Online-Docfilm.com — это коллекция документальных познавательных фильмов разных жанров от таких известных телекомпаний как BBC, Discovery и National Geographic. На сайте представлены как новинки документалистики, так и фильмы вошедшие в золотой фонд данного жанра.</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=docfilm&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[CinemaxX]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/cinemaxx_logo.ico]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/cinemaxx.gif"/><br>CinemaxX.ru - Мир онлайн кино</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=cinemaxx&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[KinoPrice]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/kinoprice_logo.ico]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/kinoprice.png" width="400"/><br><br>KinoPrice.ru - Смотреть фильмы онлайн бесплатно</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=kinoprice&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[OnlyFilmz]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/onlyfilmz_logo.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/onlyfilmz.jpg" width="400"/><br><br>OnlyFilmz.ws - фильмы онлайн</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=onlyfilmz&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[HDKinoTeatr]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/hd_kinoteatr_logo.ico]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/hd_kinoteatr.jpg" width="380"/><br><br>HDKinoTeatr.ru - Фильмы онлайн в хорошем качестве</div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=hdkinoteatr&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[Kino-Max.com]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/video_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><h1><font color="#D2691E">Kino-Max.com</font></h1>На сайте Kino-Max.com вы найдете уникальную подборку лучших HD фильмов онлайн и сериалов. На этом портале вы можете смотреть фильмы онлайн в хорошем качестве HD 720p. Kino-Max.com - это крупнейшая коллекция фильмов онлайн. В ней представлены HD фильмы и сериалы любых жанров.<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=kinomax&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[Cinema-HD.ru]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/video_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/cinemahdru.jpg" width="400"/><br><br>Cinema-HD.ru - HD фильмы онлайн<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=cinemahd&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[КиноУлей]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/kinoylei_logo.ico]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/kinoylei.png" width="330"/><br><br>Kinoylei.ru - Смотреть кино, сериалы, фильмы олайн<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=kinoylei&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[S-movie]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/smovie_logo.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/smovie.gif" width="330"/><br><br>S-movie.ru это огромное количество новых фильмов онлайн. Так же на нашем сайте вы можете найти и классику киноиндустрии. Вам на обозрение ежедневно представляются бестселлеры и самые новые фильмы совершенно разных жанров: комедии, драмы, триллеры, ужасы, приключения и многое другое. На нашем ресурсе вы можете очень просто смотреть фильмы онлайн бесплатно.<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=smovie&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[КіноПростір]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/kinoprostir_logo.jpg]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/kinoprostir.jpg" width="330"/><br><br>KinoProstir.com - Дивитися в HD фільми, кіно, мультфільми, серіали. І все онлайн українським дубляжем.<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=kinoprostir&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[Baskino]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/video_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/logos/baskino.png"/><br><br>Baskino.com - Фильмы онлайн в HD качестве<br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/browser.php?site=baskino&type=category&page=1]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[<font color="LightSalmon">Советское кино</font>]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/logos/ussr_logo.gif]]></logo_30x30>
+	<description><![CDATA[<div align="center"><img src="http://smarttv.fishki.tv/images/ussr_movies.jpg" width="400"/><br><h2>Советское кино</h2><br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/USSRmovies.xml]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[<font color="PaleGoldenrod">Юмор</font>]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/smile.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/ico/smile.png"/><br><br><h1> Юмор </h1></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/humor.xml]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[<font color="Aquamarine">Музыка</font>]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/music_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/ico/music_dir.png" width="128" lenght="128"/><br><br><h1> Музыка </h1></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/music.xml]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[<font color="LightSkyBlue">Познавательно-развлекательное</font>]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/video_dir.png]]></logo_30x30>
+	<description><![CDATA[<div align="center"><br><h2>Познавательно-развлекательный раздел</h2><br></div>]]></description>
+	<playlist_url><![CDATA[http://smarttv.fishki.tv/entertainment.xml]]></playlist_url>
+</channel>
+
+<channel>
+	<title><![CDATA[Укртелеком IP TV<font color="#00ccff"></font>]]></title>
+	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/open.png]]></logo_30x30>
+	<playlist_url>http://smarttv.fishki.tv/IPTV-ukrtel.xml</playlist_url>
+	<description><![CDATA[<table><tr><td style="vertical-align: top"><img src="http://smarttv.fishki.tv/ico/open.png" height="128" width="128"></img></td><td><h2><div align="center">ІР-телебачення від Укртелекому</div></h2></td></tr></table><table style="width:100%; padding-top:3px;padding-bottom:3px;"><tr height="4px" bgcolor="#cccccc"><td></td></tr></table><div align="center"><br>Увага! Тільки для клієнтів послуги "ОГО!" від Укртелекому.<br>Вся інформація про підключення та налаштування знаходиться на форумі:<br><font color="#00ccff">http://ogo.in.ua/forums/forum/63-ip-tv/</font></div>]]></description>
+	<category_id>1</category_id>
 </channel>
 
 </items>
