@@ -6,7 +6,7 @@
 <channel>
 	<title><![CDATA[Information]]></title>
 	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/info.png]]></logo_30x30>
-	<description><![CDATA[<center>Сейчас онлайн:<a href="http://whos.amung.us/stats/6lp2163370p2"><br><img src="http://whos.amung.us/widget/6lp2163370p2.png" alt="web stats" width="81" height="25" border="0"/></a><br>Портал предоставляет удобный доступ к сайтам для просмотра видео на телевизорах Samsung и ресиверах с Enigma2.<br><br>Обсуждение плейлистов, предложения и замечания, сообщения об ошибках и неработающих ссылках и просто ваши мысли оставляйте в чате на нашем сайте:<br><img src="http://smarttv.fishki.tv/logos/SmartTV.fishki.tv.gif"/><br><font color="#1E90FF">http://SmartTV.fishki.tv</font></center>]]></description>
+	<description><![CDATA[<center>Сейчас онлайн:<a href="http://whos.amung.us/stats/6lp2163370p2"><br><url src="https://sourceforge.net/projects/borlocho/?source=typ_redirect"/></a><br>Портал предоставляет удобный доступ к сайтам для просмотра видео на телевизорах Samsung и ресиверах с Enigma2.<br><br>Обсуждение плейлистов, предложения и замечания, сообщения об ошибках и неработающих ссылках и просто ваши мысли оставляйте в чате на нашем сайте:<br><img src="http://smarttv.fishki.tv/logos/SmartTV.fishki.tv.gif"/><br><font color="#1E90FF">http://SmartTV.fishki.tv</font></center>]]></description>
 	<playlist_url><![CDATA[http://smarttv.fishki.tv/info.xml]]></playlist_url>
 </channel>
 
