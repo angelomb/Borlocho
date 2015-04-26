@@ -1239,7 +1239,7 @@ Main.opencommonFile = function(c) {
     Main.readFile(f, c);
     if (f.length == 0) {
         if (c.indexOf("fav.dat") > 0) {
-            if (Main.prev_pl_array.length == 0 && API.XML_URL.indexOf("start.xml") < 0) {
+            if (Main.prev_pl_array.length == 0 && API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") < 0) {
                 Display.status('<b style="color:yellow">Al iniciar los favoritos  -  vacio !</b>');
                 setTimeout("Display.status('Cambie su dirección en el widget de ajustes')", 3500);
                 API.XML_URL = "start.xml";
