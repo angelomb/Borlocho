@@ -208,8 +208,10 @@ http://200.76.77.237/LIVE/H01/CANAL496/PROFILE03.m3u8?
 http://200.76.77.237/LIVE/H01/CANAL516/PROFILE03.m3u8?
 #EXTINF:-1 group-title="Calidad Media ",ESPN 3
 http://200.76.77.237/LIVE/H01/CANAL520/PROFILE03.m3u8?
-#EXTINF:-1 group-title="Calidad Media ",beIN SPORTS
+#EXTINF:-1 group-title="Liga española",Bein Sports FullHD
 http://ak-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b4628000.m3u8?
+#EXTINF:-1 group-title="Liga española",Bein Sports HD
+http://ak-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b3128000.m3u8?
 #EXTINF:-1 group-title="Calidad Media ",FOX SPORTS HD
 http://200.76.77.237/LIVE/H01/CANAL522/PROFILE03.m3u8?
 #EXTINF:-1 group-title="Calidad Media ",FOX SPORTS 2 HD
