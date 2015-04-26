@@ -395,14 +395,14 @@ Main.UpdateHelpBar = function() {
             if (API.categories.length < 3 && !Main.FAV && !Main.guide && API.XML_URL.indexOf("history.dat") < 0) {
                 getIdb("9_help");
             }
-            if (API.XML_URL.indexOf("start.xml") == 0) {
+            if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") == 0) {
                 Display.status(API.XML_URL);
                 if (Main.Kill != "") {
                     API.Xcode = Main.Kill;
                 }
             }
         } else {
-            if (API.XML_URL.indexOf("start.xml") != 0) {
+            if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") != 0) {
                 getIdn("6_help");
                 if (!this.RED) {
                     getIdb("7_help");
@@ -771,7 +771,7 @@ Main.PlayPrevPlaylist = function() {
             }
         }
     } else {
-        if (API.XML_URL.indexOf("start.xml") != 0) {
+        if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") != 0) {
             this.start = true;
             Main.DEL = false;
             Main.playlist();
@@ -936,7 +936,7 @@ Main.playlist = function() {
         this.pre_pl_url = API.XML_URL;
         this.playlist_name = Main.name;
         if (Main.start) {
-            this.pl_url = "start.xml";
+            this.pl_url = "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml";
         }
         if (API.Xcode != 0 && !Main.guide && !Main.start && !Main.help_info && this.url == "") {
             var c = /[-="',&\/\?\s\_]xxx|porno|sex|erotica|секс|порно|эротика|aнал/i;
@@ -950,7 +950,7 @@ Main.playlist = function() {
                 Main.temp_fav_name = Main.fav_name;
             }
             Main.SavePrevPlaylist();
-            if (Main.pl_url.indexOf("Open") != 0 && Main.pl_url.indexOf("history.dat") < 0 && API.XML_URL != "start.xml") {
+            if (Main.pl_url.indexOf("Open") != 0 && Main.pl_url.indexOf("history.dat") < 0 && API.XML_URL != "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") {
                 Main.saveHistory("pl_history.dat");
             }
         }
@@ -1204,8 +1204,8 @@ Main.delFavorites = function() {
         Display.status('<b style="color:yellow">Favorito №' + Main.fav_num + ' - "' + Main.fav_name + '" -  vacio !</b>');
         Main.FAV = false;
         Main.RED = false;
-        if (Main.prev_pl_array.length == 0 && API.XML_URL.indexOf("start.xml") < 0) {
-            API.XML_URL = "start.xml";
+        if (Main.prev_pl_array.length == 0 && API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") < 0) {
+            API.XML_URL = "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml";
             setTimeout("API.Request(API.XML_URL)", 3000);
         } else {
             setTimeout("Main.PlayPrevPlaylist();", 3000);
@@ -1242,7 +1242,7 @@ Main.opencommonFile = function(c) {
             if (Main.prev_pl_array.length == 0 && API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") < 0) {
                 Display.status('<b style="color:yellow">Al iniciar los favoritos  -  vacio !</b>');
                 setTimeout("Display.status('Cambie su dirección en el widget de ajustes')", 3500);
-                API.XML_URL = "start.xml";
+                API.XML_URL = "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml";
                 setTimeout("API.Request(API.XML_URL)", 7000)
             } else {
                 Display.status('<b style="color:yellow">Favorito №' + Main.fav_num + " - " + Main.fav_name + " -  vacio !</b>", 1500);
@@ -1631,7 +1631,7 @@ msecToStr = function(a, b) {
     return to(h, m, a);
 };
 var API = {
-    XML_URL: "start.xml",
+    XML_URL: "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml",
     star_url: "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml",
     help_url: "help/help.xml",
     GenUrl: "",
@@ -1780,7 +1780,7 @@ GetYaBaseInfo = function() {
 API.loadComplete = function() {
     if (API.channels.length == 0) {
         Display.status('<b style="color:yellow">ERROR EN LA ESTRUCTURA DE LA LISTA DE REPRODUCCIÓN!</b>');
-        if (Main.prev_pl_array.length == 0 && API.XML_URL == "start.xml") {
+        if (Main.prev_pl_array.length == 0 && API.XML_URL == "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") {
             setTimeout("getIdb('main');SetupFormular()", 2000);
         } else {
             setTimeout("Main.PlayPrevPlaylist();", 500);
@@ -1874,8 +1874,8 @@ API.recieveData = function(a) {
     } else {
         Display.status('<b style="color:yellow">URL incorrecta o no hay lista de reprod.</b>');
         if (Main.FirstStart) {
-            if (API.XML_URL.indexOf("start.xml") < 0) {
-                API.XML_URL = "start.xml";
+            if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") < 0) {
+                API.XML_URL = "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml";
                 setTimeout("API.Request(API.XML_URL)", 3000);
             } else {
                 setTimeout("getIdb('main');SetupFormular()", 3000);
@@ -2728,7 +2728,7 @@ KeyHandler.MainMenuKeyDown = function() {
             break;
         case 1086:
         case 84:
-            if (API.XML_URL.indexOf("start.xml") != 0) {
+            if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") != 0) {
                 Main.start = true;
                 Main.playlist();
             } else {
@@ -2922,7 +2922,7 @@ KeyHandler.MainMenuKeyDown = function() {
                     Main.Ya_flag_step++;
                     YandexGetUrl(GetYindex());
                 } else {
-                    if (API.XML_URL.indexOf("start.xml") == 0) {
+                    if (API.XML_URL.indexOf("https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml") == 0) {
                         if (Main.ya_auto && !Main.ya_base_info) {
                             GetYaBaseInfo();
                         }
@@ -5198,7 +5198,7 @@ onEnter = function() {
     try {
         var w = getId("27").value;
         if (w == "ON") {
-            var b = ["start.xml", "", "", "", "", "0", "0", "Principal|IPTV|Películas|Series", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
+            var b = ["https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml", "", "", "", "", "0", "0", "Principal|IPTV|Películas|Series", "213", "ru", "0", "0", "0", "", "100", "100", "2", "0", "0", "0", "0", "0", "1", "1", "0", "360p"];
         } else {
             var G = lrdPr(getId("0").value);
             var v = lrdPr(getId("2").value);
