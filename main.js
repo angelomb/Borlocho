@@ -1632,7 +1632,7 @@ msecToStr = function(a, b) {
 };
 var API = {
     XML_URL: "start.xml",
-    star_url: "start.xml",
+    star_url: "https://raw.githubusercontent.com/angelomb/awikaruy/master/start.xml",
     help_url: "help/help.xml",
     GenUrl: "",
     GenT: "500",
