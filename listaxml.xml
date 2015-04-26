@@ -11,7 +11,7 @@
 </channel>
 
 <channel>
-	<title><![CDATA[TOTALPLAY CALIDAD BAJA]]></title>
+	<title><![CDATA[TOTALPLAY CALIDAD BAJAs]]></title>
 	<logo_30x30><![CDATA[http://smarttv.fishki.tv/images/rating.jpg]]></logo_30x30>
 	<description><![CDATA[<div align="center"><br><img src="http://smarttv.fishki.tv/images/rating.jpg" width="200"/><br><br>TOP 30 фильмов - что чаще всего смотрели пользователи портала за последние 7 дней<br><br>Внимание! Фильмы могут повторяться, т.к. рейтинги одинаковых фильмов с разных сайтов не суммируются.</div>]]></description>
 	<playlist_url>https://raw.githubusercontent.com/angelomb/awikaruy/master/canalestotalplaybaja.m3u</playlist_url>
