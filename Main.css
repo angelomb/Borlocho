@@ -180,6 +180,7 @@ body
     border: 1px solid #777777;
 }
 
+/*cuadros de entrada de texto*/
 #rightHalf  #allInput input
 {
     height: 22px;
@@ -187,9 +188,10 @@ body
     float:right;
 }
 
+/*cuadros de entrada de numero*/
 #rightHalf  #allInput div
 {
-    height: 22px;
+    height: 50px;
 	font-size:17px;
     float:right;
     text-align:center;
@@ -213,7 +215,7 @@ body
 }
 #rightHalf  #allInput #text_form0
 {
-    width: 350px;
+    width: 200px;
     height: 20px;
     float:left;
 }
