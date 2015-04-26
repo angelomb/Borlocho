@@ -209,7 +209,7 @@ http://200.76.77.237/LIVE/H01/CANAL516/PROFILE02.m3u8?
 #EXTINF:-1 group-title="Calidad Baja ",ESPN 3
 http://200.76.77.237/LIVE/H01/CANAL520/PROFILE02.m3u8?
 #EXTINF:-1 group-title="Calidad Baja ",beIN SPORTS
-http://dtv_hls_live-lh.akamaihd.net/i/dtvhls02_delivery@195673/index_4128_av-p.m3u8
+http://ak-bein-us-es-stream.fubo.tv/UT-Origin/ngrp:BeInSports_ES_all/chunklist_b4628000.m3u8?
 #EXTINF:-1 group-title="Calidad Baja ",FOX SPORTS HD
 http://200.76.77.237/LIVE/H01/CANAL522/PROFILE02.m3u8?
 #EXTINF:-1 group-title="Calidad Baja ",FOX SPORTS 2 HD
