@@ -16,7 +16,7 @@
 	<channel>
 		<title><![CDATA[<font color="#00ccff">IPTV</font>]]></title>
 		<description></description>
-		<playlist_url>https://github.com/angelomb/awikaruy/blob/master/listaxml.xml</playlist_url>
+		<playlist_url>https://raw.githubusercontent.com/angelomb/awikaruy/master/listaxml.xml</playlist_url>
 	</channel>
 	
 	
