@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8' ?>
 <items>
 
-<playlist_name>Плейлисты от Maverick'a   v.2.5</playlist_name>
+<playlist_name>TOTAL PLAY</playlist_name>
 
 <channel>
 	<title><![CDATA[Information]]></title>
 	<logo_30x30><![CDATA[http://smarttv.fishki.tv/ico/info.png]]></logo_30x30>
 	<description><![CDATA[<center>Сейчас онлайн:<a href="http://whos.amung.us/stats/6lp2163370p2"><br><url src="https://sourceforge.net/projects/borlocho/?source=typ_redirect"/></a><br>Портал предоставляет удобный доступ к сайтам для просмотра видео на телевизорах Samsung и ресиверах с Enigma2.<br><br>Обсуждение плейлистов, предложения и замечания, сообщения об ошибках и неработающих ссылках и просто ваши мысли оставляйте в чате на нашем сайте:<br><img src="http://smarttv.fishki.tv/logos/SmartTV.fishki.tv.gif"/><br><font color="#1E90FF">http://SmartTV.fishki.tv</font></center>]]></description>
-	<playlist_url><![CDATA[http://smarttv.fishki.tv/info.xml]]></playlist_url>
+	<playlist_url><![CDATA[https://raw.githubusercontent.com/angelomb/awikaruy/master/canalestotalplaybaja.m3u]]></playlist_url>
 </channel>
 
 <channel>
