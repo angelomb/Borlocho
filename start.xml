@@ -16,12 +16,8 @@
 	<channel>
 		<title><![CDATA[<font color="#00ccff">IPTV</font>]]></title>
 		<description></description>
-		<playlist_url>https://raw.githubusercontent.com/angelomb/awikaruy/master/iptv.m3u</playlist_url>
+		<playlist_url>https://github.com/angelomb/awikaruy/blob/master/listaxml.xml</playlist_url>
 	</channel>
-	<channel>
-		<title><![CDATA[<font color="#00ccff">TEST</font>]]></title>
-		<description></description>
-		<playlist_url>https://doc-08-4s-docs.googleusercontent.com/docs/securesc/5as63v5nvtp0o1b5vobov5chf761l2cu/g85m32o226ftgb91nea18n7k3plt0r1j/1430006400000/15174359162953767719/15174359162953767719/0BxlKkKHskkWYdUZmV2hyUzJ0NlE?e=download</playlist_url>
-	</channel>	
+	
 	
 </items>
